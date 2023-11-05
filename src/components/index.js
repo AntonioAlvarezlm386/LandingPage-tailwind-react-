@@ -16,6 +16,6 @@ export {
     Services,
     SpecialOffer,
     Subscribe,
-    Footer,
-    SuperQuality
+    SuperQuality,
+    Footer
 }

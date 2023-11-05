@@ -2,7 +2,7 @@
 
 const SuperQuality = () => {
   return (
-    <div>SuperQuality test</div>
+    <div>SuperQuality</div>
   )
 }
 

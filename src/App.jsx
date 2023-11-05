@@ -1,30 +1,30 @@
-import { Footer, SuperQuality } from './components/index.js'
+import { Hero, CustomerReviews, PopularProducts, Services, SpecialOffer, Subscribe, SuperQuality, Footer } from './components/index.js'
 
 function App() {
     return (
       <main className="relative">
-        nav
+        navbar
         <section className="xl:padding-1 wide:padding-r padding-b">
-          hero
+          <Hero/>
         </section>
         <section className="padding">
-          popular products
+          <PopularProducts/>
         </section>
         <section className="padding">
           <SuperQuality/>
         </section>
         <section className="padding-x py-10">
-          services
+          <Services/>
         </section>
         <section className="padding">
-          pspecial offer
+          <SpecialOffer/>
         </section>
 
         <section className="padding bg-pale-blue">
-          customer reviews
+          <CustomerReviews/>
         </section>
         <section className="padding-x sm:py-32 py-16 w-full">
-          subscribe
+          <Subscribe/>
         </section>
         <section className="padding-x padding-t pb-8 bg-black">
           <Footer/>
