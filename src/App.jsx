@@ -1,9 +1,11 @@
 import { Hero, CustomerReviews, PopularProducts, Services, SpecialOffer, Subscribe, SuperQuality, Footer } from './components/index.js'
+import Nabvar from './components/Nabvar.jsx';
+
 
 function App() {
     return (
       <main className="relative">
-        navbar
+        <Nabvar/>
         <section className="xl:padding-1 wide:padding-r padding-b">
           <Hero/>
         </section>
