@@ -1,4 +1,4 @@
-
+import { Footer, SuperQuality } from './components/index.js'
 
 function App() {
     return (
@@ -11,7 +11,7 @@ function App() {
           popular products
         </section>
         <section className="padding">
-          super Quaity
+          <SuperQuality/>
         </section>
         <section className="padding-x py-10">
           services
@@ -27,7 +27,7 @@ function App() {
           subscribe
         </section>
         <section className="padding-x padding-t pb-8 bg-black">
-          footer
+          <Footer/>
         </section>
       </main>
     )
